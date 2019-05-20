@@ -1,0 +1,10 @@
+1. YOLO 
+https://pjreddie.com/darknet/yolo/
+download cfg file and weights file
+2. Label
+https://github.com/pjreddie/darknet/blob/master/data/coco.names
+download labels from link
+
+
+3. Change path in code to fit your device
+

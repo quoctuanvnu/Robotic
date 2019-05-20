@@ -1,0 +1,29 @@
+Robot INT 3409-21
+Group Members:
+  - Trần Anh Tú
+  - Nguyễn Anh Tú
+  - Thái Quốc Tuấn
+
+
+#Installing AI2-THOR using pip:
+$ pip install ai2thor
+
+Git clone the repository:
+$ git clone https://github.com/voanh01/ai2thorxyolov3.git
+
+$ wget https://pjreddie.com/media/files/yolov3.weights
+
+
+
+#MOVEMENTS
+“w” - Move the agent forward by gridSize.
+“a” - Move the agent left by gridSize (without changing view direction).
+“s” - Move the agent backward by gridSize (without changing view direction).
+“d” - Move the agent right by gridSize (without changing view direction).
+“left arrow” - Rotate the agent by 90 degrees to the left of its current facing.
+“right arrow” - Rotate the agent by 90 degrees to the right of its current facing.
+“up arrow” - Angle the agent’s view up in 30 degree increments.
+“down arrow” - Angle the agent’s view down in 30 degree increments.
+
+#ACTIONS:
+"f" - release picture detected 
